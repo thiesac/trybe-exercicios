@@ -1,0 +1,16 @@
+ 1019  sleep 100
+ 1020  jobs
+ 1021  fg %2
+ 1022  jobs
+ 1023  bg %4
+ 1024  jobs
+ 1025  kill all
+ 1026  kill %1
+ 1027  kill %2,3
+ 1028  kill %all
+ 1029  kill %2
+ 1030  jobs
+ 1031  kill %3
+ 1032  bg %all
+ 1033  ps | grep sleep
+ 1034  killall sleep

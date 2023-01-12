@@ -1,0 +1,16 @@
+ 1018  touch arquivo_teste.txt
+ 1019  ls
+ 1020  ls -l
+ 1021  chmod a+rw
+ 1022  ls -l
+ 1023  chmod a+ rw
+ 1024  chmod a+rw arquivo_teste.txt
+ 1025  ls -l
+ 1026  chmod a-r arquivo_teste.txt
+ 1027  ls -l
+ 1028  chmod a+r arquivo_teste.txt
+ 1029  ls -l
+ 1030  chmod a-w arquivo_teste.txt
+ 1031  ls -l
+ 1032  chmod a+w arquivo_teste.txt
+ 1033  ls -l
