@@ -1,5 +1,3 @@
-// Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três constantes com os valores que serão comparados.
-
 const value1 = 45;
 const value2 = 23;
 const value3 = 7;
