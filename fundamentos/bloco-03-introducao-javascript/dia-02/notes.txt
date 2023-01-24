@@ -1,0 +1,4 @@
+- Adicionar ítem no início: unshift()
+- Remover último: pop()
+- Remover primeiro: shift()
+- Procurar índice de item: indexOf()
