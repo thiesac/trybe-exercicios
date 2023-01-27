@@ -1,6 +1,15 @@
 const substitute = (person) => {
-  const frase = "Tryber ${person} aqui!";
-  return frase;
+  const sentence = `Tryber x aqui!`;
+  let sentenceWithoutX;
+  sentenceWithoutX = sentence.split("x");
+  console.log(sentenceWithoutX);
+  let newSentence = [];
+  newSentence.push(sentenceWithoutX[0]);
+  newSentence.push(person);
+  newSentence.push(sentenceWithoutX[2]);
+
+  return console.log(newSentence);
+  // return newSentence;
 };
 
-console.log(substitute("Mafalda"));
+substitute("Mafalda");
