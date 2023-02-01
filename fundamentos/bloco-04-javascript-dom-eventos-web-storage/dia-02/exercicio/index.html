@@ -59,6 +59,7 @@
     <script>
       const h1 = document.createElement("h1");
       h1.innerText = "TrybeTrip - Agência de Viagens";
+      h1.className = "title";
       document.body.appendChild(h1);
 
       const main = document.createElement("main");
@@ -76,10 +77,12 @@
       const leftSection = document.createElement("section");
       leftSection.className = "left-content";
       main.appendChild(leftSection);
+      main.removeChild(leftSection);
 
       const rightSection = document.createElement("section");
       rightSection.className = "right-content";
       main.appendChild(rightSection);
+      rightSection.style.marginRight = "auto";
 
       const image = document.createElement("img");
       image.className = "small-image";
@@ -109,7 +112,15 @@
       for (let i = 1; i <= 3; i += 1) {
         const h3 = document.createElement("h3");
         main.appendChild(h3);
+        h3.className = "description";
       }
+
+      const section3 = document.getElementsByClassName("center-content")[0];
+      section3.parentNode.style.backgroundColor = "green";
+
+      const ulRemove = document.getElementsByTagName("ul")[0];
+      ulRemove.lastChild.remove();
+      ulRemove.lastChild.remove();
     </script>
   </body>
 </html>
