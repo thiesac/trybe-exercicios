@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgba(0, 0, 255, 0.121);
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .container header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+}
